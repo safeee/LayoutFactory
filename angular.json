@@ -25,9 +25,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/build/TemplateData/style.css"
             ],
-            "scripts": []
+            "scripts": ["src/assets/build/Build/build.loader.js"]
           },
           "configurations": {
             "production": {
